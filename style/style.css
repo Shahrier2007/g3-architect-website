@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-normal {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* shared-styles */
+  .display-flex{
+    display: flex;
+  }
+  .dark-1{
+    color: rgba(19, 19, 19, 1);
+  }
+  .dark-2{
+    color: rgba(66, 66, 66, 1)
+  }
+  .dark-3{
+    color: rgba(114, 114, 114, 1);
+  }
+  .bg-1{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+ .btn{
+  background-color: #FF900E;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 25px;
+ }
+  /* nav-style */
+  .nav{
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul{
+    gap: 30px;
+  }
+  nav ul li{
+    list-style: none;
+    font-weight: 500;
+  }
+  nav ul li a{
+    text-decoration: none;
+    
+  }
+  .brand{
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  nav, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  /* banner */
+  .banner-heading{
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  .banner-content{
+    text-align: center;
+    max-width: 860px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .banner-img{
+    width: 100%;
+  }
+/* media-quary */
+@media screen and (max-width: 700px) {
+  .nav, .nav-links{
+    flex-direction: column;
+  }
+}
+  
